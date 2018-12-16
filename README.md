@@ -1,5 +1,9 @@
 # Sorting Person
 
+The idea behind this project is to sort the person details based on the given field and order.
+
+##Build and Running the Project
+
 The project uses maven as a distribution and package management system.
 
 To install and run the project please do the following steps
@@ -50,3 +54,9 @@ Edit this class for different runs.
  
 ## Trade-offs
 
+
+Initially, I had a thought of using Quicksort or Mergesort for sorting the fields. Since its time complexity is (O(n(logn)).  
+
+I weighted against Collections.Sort Since its time complexity is also O(n(logn)) (which uses Merge sort in-build for sorting). So, I preferred to use Collections.sort.
+
+Additionally, I have created three comparators of the different datatype. In the future, if there are additional filed other than String, Double, and Date, then the logic has to be changed to sort the new comparator.
