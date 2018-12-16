@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A sample Runner to demo the working of the PersonSort Class.
+ * A Runner to demo the working of the PersonSort Class.
  */
-public class SampleRunner {
+public class Runner {
 
     public static void main(String args[]) throws ParseException {
         List<Person> personArrayList = new ArrayList<Person>();
