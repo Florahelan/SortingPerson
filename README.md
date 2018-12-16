@@ -59,4 +59,5 @@ Initially, I had a thought of using Quicksort or Mergesort for sorting the field
 
 I weighted against Collections.Sort Since its time complexity is also O(n(logn)) (which uses Merge sort in-build for sorting). So, I preferred to use Collections.sort.
 
-Additionally, I have created three comparators of the different datatype. In the future, if there are additional filed other than String, Double, and Date, then the logic has to be changed to sort the new comparator.
+Additionally, I have created three comparators of the different datatype. In the future, if there are additional 
+filed other than String, Double, and Date, then the logic has to be changed to sort the new field.
