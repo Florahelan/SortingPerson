@@ -2,7 +2,7 @@
 
 The idea behind this project is to sort the person details based on the given field and order.
 
-##Build and Running the Project
+## Build and Running the Project
 
 The project uses maven as a distribution and package management system.
 
